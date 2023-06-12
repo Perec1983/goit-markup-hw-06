@@ -420,7 +420,7 @@
           </svg></button>
           <p class="modal-title">Leave your contacts and we will call you back</p>
           <form class="modal-form">
-            <div class="modal-field">
+            <div class="modal-name">
             <label for="user-name" class="input-label">Name</label>
               <div class="input-wrap">  
               <input 
@@ -471,17 +471,17 @@
              class="modal-comment" placeholder="Text input"></textarea>
         </div>  
         
-        <div class="modal-field">
+        <div class="modal-field-privacy">
           <input type="checkbox" id="user-privacy" 
           name="user-privacy" value="true" 
-          class="modal-check">  
+          class="modal-check visually-hidden">  
           <label for="user-privacy" class="check-text">
             <span class="check-privacy">
               <svg class="modal-icon-check" width="10" height="8">
               <use href="./images/icons.svg#icon-check"></use>
               </svg>
             </span>
-            I accept the terms and conditions of the</label>
+            I accept the terms and conditions of the <a href="" class="check-privacy-link"> Privacy policy</a> </label>
         </div>
             <button type="submit" class="btn-modal">Send</button>
           </form>  
