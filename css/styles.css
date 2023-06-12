@@ -812,7 +812,20 @@ header-link::after {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: var(--icon-color);
+}
 
+.btn-modal {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--white-color);
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  
 }
 
 .subscriptoin-title {
@@ -826,10 +839,11 @@ header-link::after {
 
 .subscription-form {
   display: flex;
+  gap: 24px;
 }
 
 .subscription-label {
-  gap: 24px;
+  
 }
 
 .subscriptoin-input {
@@ -860,5 +874,5 @@ header-link::after {
   background-color: var(--second-text-color);
   border: none; 
   border-radius: 4px;
-  
+
 }
