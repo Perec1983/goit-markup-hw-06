@@ -799,7 +799,7 @@ header-link::after {
 }
  
 .check-privacy {
-  display: flex;
+  
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -823,7 +823,6 @@ header-link::after {
 }
 
 .check-text {
-  display: flex;
   align-items: center;
   font-size: 12px; 
   line-height: 1.17;
