@@ -669,6 +669,7 @@ header-link::after {
   font-weight: 500;
   letter-spacing: 0.02em;
   margin-bottom: 16px;
+  margin-top: 48px;
 }
 
 .modal-input {
@@ -691,7 +692,7 @@ header-link::after {
 }
 
 .modal-field {
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 
 .modal-comment {
@@ -721,6 +722,10 @@ header-link::after {
   transform: translateY(-50%);
   left: 16px;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-checkbox {
+  margin-bottom: 24px;
 }
 
 .input-label {
@@ -773,7 +778,7 @@ header-link::after {
   visibility: hidden;
   opacity: 0;
   pointer-events: none;
-  padding: 72px 24px 24px 24px;
+  
 }
 
 .backdrop.is-hidden .modal {
@@ -879,5 +884,5 @@ header-link::after {
   background-color: var(--second-text-color);
   border: none; 
   border-radius: 4px;
-
+  font-weight: 500;
 }
